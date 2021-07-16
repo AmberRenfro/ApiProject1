@@ -1,0 +1,54 @@
+body {
+  background-color: #ff0000;
+}
+
+h1 {
+  text-align: center;
+  margin: 100px;
+  color: #ffde00;
+  font-family: cursive;
+  font-size: 50px;
+  outline-style: double;
+  outline-color: #b3a125;
+  outline-width: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: cursive;
+  color: #3b4cca;
+}
+
+.button {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 25px;
+  font-family: cursive;
+  background-color: #ffde00;
+}
+.container {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  color: #3b4cca;
+  font-family: cursive;
+}
+
+img {
+  padding: 40px 25px 40px 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33.3%;
+}
+
+/* p {
+   font-size: 50px; 
+} */
